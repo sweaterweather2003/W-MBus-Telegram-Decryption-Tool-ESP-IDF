@@ -44,8 +44,9 @@ No MIC or KDF is used in Mode 5.
 1. Install VS Code and add ESP-IDF extension.
 2. Connect ESP32 to PC/Laptop via USB.
 3. Paste the code into a new sketch.
-4. Select ESP32 board and port, build flash and monitor.
-5. Open Serial Monitor at 115200 baud to see output.
+4. Download the files from GitHub: Go to github.com/kokke/tiny-AES-c and paste it into a folder called components
+5. Select ESP32 board and port, build flash and monitor.
+6. Open Serial Monitor at 115200 baud to see output.
 
 ## Example Input and Output
 
