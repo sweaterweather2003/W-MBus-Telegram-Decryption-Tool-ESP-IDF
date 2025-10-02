@@ -35,8 +35,6 @@ The decryption follows OMS Vol. 2 Section 9.3.5 (Security Profile 5: AES-128 CBC
 7. **Strip Padding**: Remove leading 2 bytes (0x2F 0x2F) and trailing 0x2F bytes.
 8. **Output**: Print the decrypted payload as hex, which typically contains DIF/VIF-coded meter data (e.g., volume readings).
 
-No MIC or KDF is used in Mode 5.
-
 ## How to Build and Run the Code
 
 ### On Real ESP32 [https://drive.google.com/drive/folders/1AqbE5faF-eT024LdtOtHN14VjyxxswJf?usp=sharing]
@@ -48,6 +46,19 @@ No MIC or KDF is used in Mode 5.
 5. Select ESP32 board and port, build flash and monitor.
 6. Open Serial Monitor at 115200 baud to see output.
 
+### NOTE: Please download just the "build" folder from the drive attached [https://drive.google.com/drive/folders/1y5SjG1ES2bgNPeTEut2XO49Qhds0lult?usp=drive_link]
+###       All the other folders necessary for the project are in the repository
+
+### On Wokwi (ESP32 Simulator)[my project: [https://wokwi.com/projects/443679178378145793]]
+
+1. Go to [wokwi.com](https://wokwi.com) and create a new ESP32 project.
+2. In the code editor, replace the default `sketch.ino` with the provided C++ code.
+3. Download the files from GitHub: Go to github.com/kokke/tiny-AES-c, download aes.h and aes.c
+4. Click the "Start" button to simulate.
+5. View the output in the Serial Monitor (bottom panel) at 115200 baud.
+6. For debugging, add `Serial.print` statements as needed.
+
+   
 ## Example Input and Output
 
 ### Input
