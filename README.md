@@ -39,7 +39,7 @@ No MIC or KDF is used in Mode 5.
 
 ## How to Build and Run the Code
 
-### On Real ESP32 
+### On Real ESP32 [https://drive.google.com/drive/folders/1AqbE5faF-eT024LdtOtHN14VjyxxswJf?usp=sharing]
 
 1. Install VS Code and add ESP-IDF extension.
 2. Connect ESP32 to PC/Laptop via USB.
